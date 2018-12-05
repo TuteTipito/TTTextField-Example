@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "TTTextField"
-  s.version      = "1.0.5"
+  s.version      = "1.0.6"
   s.summary      = "Custom TextField"
   s.description  = "TTTextfield TT Custom"
   s.homepage     = "https://github.com/TuteTipito/TTTextField-Example.git"
