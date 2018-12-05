@@ -43,8 +43,6 @@
 		0027BA4C20BDE36B0001D1B5 /* TTSplashAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = TTSplashAssets.xcassets; sourceTree = "<group>"; };
 		0027BA4F20BDE5E80001D1B5 /* TTTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTTextField.swift; sourceTree = "<group>"; };
 		0027BA5120BDEAB00001D1B5 /* TTTextField.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TTTextField.xib; sourceTree = "<group>"; };
-		0028CC1221B85DF200617ED3 /* TTTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTTextField.h; sourceTree = "<group>"; };
-		0028CC1321B85DF200617ED3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +60,6 @@
 			isa = PBXGroup;
 			children = (
 				0027BA3020BDE21E0001D1B5 /* TTTextField Example */,
-				0028CC1121B85DF200617ED3 /* TTTextField */,
 				0027BA2F20BDE21E0001D1B5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -107,15 +104,6 @@
 			);
 			path = TTSplash;
 			sourceTree = SOURCE_ROOT;
-		};
-		0028CC1121B85DF200617ED3 /* TTTextField */ = {
-			isa = PBXGroup;
-			children = (
-				0028CC1221B85DF200617ED3 /* TTTextField.h */,
-				0028CC1321B85DF200617ED3 /* Info.plist */,
-			);
-			path = TTTextField;
-			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
