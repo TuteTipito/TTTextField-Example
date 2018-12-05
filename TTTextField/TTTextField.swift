@@ -105,7 +105,7 @@ public class TTTextField: UIView, UITextFieldDelegate {
     
     func textRect(forBounds bounds: CGRect) -> CGRect {
         let padding = UIEdgeInsets(top: 0, left: (self.textField.leftView?.frame.size.width ?? 0)+self.padding, bottom: 0, right: (self.textField.rightView?.frame.size.width ?? 0)+self.padding);
-        return UIEdgeInsetsInsetRect(bounds, padding)
+        return bounds.inset(by: padding)
     }
     
     func placeholderRect(forBounds bounds: CGRect) -> CGRect {

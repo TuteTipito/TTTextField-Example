@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "TTTextField"
-  s.version      = "1.0.2"
+  s.version      = "1.0.3"
   s.summary      = "Custom TextField"
   s.description  = "TTTextfield TT Custom"
   s.homepage     = "https://github.com/TuteTipito/TTTextField-Example.git"
@@ -14,4 +14,5 @@ Pod::Spec.new do |s|
   s.framework  = "UIKit"
   s.ios.framework = "UIKit"
   s.requires_arc = true
+  s.swift_version= "4.2"
 end
