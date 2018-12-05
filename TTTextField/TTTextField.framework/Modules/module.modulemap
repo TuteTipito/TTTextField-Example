@@ -1,0 +1,6 @@
+framework module TTTextField {
+  umbrella header "TTTextField.h"
+
+  export *
+  module * { export * }
+}
