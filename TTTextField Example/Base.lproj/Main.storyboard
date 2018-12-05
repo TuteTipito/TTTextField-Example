@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TTTextField_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bRT-90-48h" customClass="TTTextField" customModule="TTTextField_Example" customModuleProvider="target">
+                                <rect key="frame" x="20" y="60" width="280" height="58"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="linearColor">
+                                        <color key="value" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fka-53-oBy" customClass="TTTextField" customModule="TTTextField_Example" customModuleProvider="target">
+                                <rect key="frame" x="20" y="123" width="280" height="58"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="linearColor">
+                                        <color key="value" red="0.074805500469999994" green="0.37423322260000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wjt-VA-YzF" customClass="TTTextField" customModule="TTTextField_Example" customModuleProvider="target">
+                                <rect key="frame" x="20" y="186" width="192" height="58"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="linearColor">
+                                        <color key="value" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hPS-OR-87q" customClass="TTTextField" customModule="TTTextField_Example" customModuleProvider="target">
+                                <rect key="frame" x="222" y="186" width="78" height="58"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="linearColor">
+                                        <color key="value" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aZL-CL-Jcj" customClass="TTTextField" customModule="TTTextField_Example" customModuleProvider="target">
+                                <rect key="frame" x="20" y="249" width="240" height="58"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="linearColor">
+                                        <color key="value" red="0.074805500469999994" green="0.37423322260000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="aZL-CL-Jcj" firstAttribute="leading" secondItem="bRT-90-48h" secondAttribute="leading" id="Dqd-Tb-0Pb"/>
+                            <constraint firstItem="bRT-90-48h" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Esv-uK-oTS"/>
+                            <constraint firstItem="Wjt-VA-YzF" firstAttribute="top" secondItem="fka-53-oBy" secondAttribute="bottom" constant="5" id="Gsp-H1-UQY"/>
+                            <constraint firstItem="hPS-OR-87q" firstAttribute="top" secondItem="fka-53-oBy" secondAttribute="bottom" constant="5" id="Jhc-iY-ob4"/>
+                            <constraint firstItem="aZL-CL-Jcj" firstAttribute="top" secondItem="hPS-OR-87q" secondAttribute="bottom" constant="5" id="TN8-0D-cEh"/>
+                            <constraint firstItem="fka-53-oBy" firstAttribute="top" secondItem="bRT-90-48h" secondAttribute="bottom" constant="5" id="TNG-eg-iBt"/>
+                            <constraint firstItem="Wjt-VA-YzF" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.6" id="Tp6-s3-ewl"/>
+                            <constraint firstItem="Wjt-VA-YzF" firstAttribute="leading" secondItem="bRT-90-48h" secondAttribute="leading" id="Ukf-UP-M1R"/>
+                            <constraint firstItem="fka-53-oBy" firstAttribute="trailing" secondItem="bRT-90-48h" secondAttribute="trailing" id="XIk-RZ-3JX"/>
+                            <constraint firstItem="aZL-CL-Jcj" firstAttribute="top" secondItem="Wjt-VA-YzF" secondAttribute="bottom" constant="5" id="dh0-E6-roP"/>
+                            <constraint firstItem="fka-53-oBy" firstAttribute="leading" secondItem="bRT-90-48h" secondAttribute="leading" id="dxe-lL-kdi"/>
+                            <constraint firstItem="bRT-90-48h" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="mPB-z5-fFQ"/>
+                            <constraint firstItem="hPS-OR-87q" firstAttribute="leading" secondItem="Wjt-VA-YzF" secondAttribute="trailing" constant="10" id="pVQ-jt-3HU"/>
+                            <constraint firstItem="hPS-OR-87q" firstAttribute="top" secondItem="Wjt-VA-YzF" secondAttribute="top" id="rnc-gh-2yB"/>
+                            <constraint firstItem="aZL-CL-Jcj" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.75" id="rt7-fT-wIh"/>
+                            <constraint firstItem="hPS-OR-87q" firstAttribute="trailing" secondItem="bRT-90-48h" secondAttribute="trailing" id="s8q-j0-CoR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bRT-90-48h" secondAttribute="trailing" constant="20" id="sdK-tT-FVC"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="141.59999999999999" y="106.59670164917542"/>
+        </scene>
+    </scenes>
+</document>
